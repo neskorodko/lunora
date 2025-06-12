@@ -12,7 +12,7 @@
 ## Бізнес-модель
 
 - Free/Paid система на основі внутрішніх монет
-- Інтеграція з Telegram Payments
+- Інтеграція з Telegram Payments та Fondy
 - Підписки на регулярні прогнози
 
 ## Технічний стек
@@ -42,7 +42,8 @@ cp .env.example .env
 
 4. Відредагуйте `.env` файл, додавши:
 - BOT_TOKEN (отримайте у @BotFather)
-- PROVIDER_TOKEN (для Telegram Payments)
+- PROVIDER_TOKEN (для Telegram Payments) або налаштуйте Fondy
+- FONDY_MERCHANT_ID та FONDY_SECRET_KEY (для оплати через Fondy)
 - OPENAI_KEY (для AI-інтерпретацій)
 - CURRENCY (валюта платежів, наприклад UAH)
 
@@ -73,6 +74,7 @@ lunora-bot/
 ├─ bot.js               # Основний файл бота
 ├─ helpers/
 │   ├─ payments.js      # Логіка платежів
+│   ├─ fondy.js         # Оплата через Fondy
 │   ├─ session.js       # Управління сесіями
 │   ├─ utils.js         # Допоміжні функції
 │   ├─ cron.js          # Планувальник завдань
