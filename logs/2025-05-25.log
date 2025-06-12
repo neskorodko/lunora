@@ -1,0 +1,140 @@
+[2025-05-25T19:38:10.504Z] [INFO] All cron jobs initialized
+[2025-05-25T19:40:30.831Z] [INFO] User 356292830 started the bot
+[2025-05-25T19:40:30.831Z] [INFO] Initialized user: 356292830 (champagneepapi)
+[2025-05-25T19:40:37.721Z] [ERROR] Error for message
+Stack: TypeError: palmistryModule.startPalmistrySession is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\bot.js:102:19
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:339:28
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T19:40:46.555Z] [ERROR] Error for message
+Stack: TypeError: astrologyModule.startAstrologySession is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\bot.js:106:19
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:339:28
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T19:40:48.425Z] [ERROR] Error for message
+Stack: TypeError: tarotModule.startTarotSession is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\bot.js:98:15
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:339:28
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T19:40:59.004Z] [ERROR] Error for message
+Stack: TypeError: tarotModule.startTarotSession is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\bot.js:98:15
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:339:28
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T19:55:18.682Z] [INFO] All cron jobs initialized
+[2025-05-25T19:55:29.127Z] [INFO] User 356292830 started the bot
+[2025-05-25T19:55:41.150Z] [ERROR] Error for message
+Stack: TypeError: tarotModule.startTarotSession is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\bot.js:98:15
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:339:28
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T19:56:22.527Z] [ERROR] Error for message
+Stack: TypeError: palmistryModule.startPalmistrySession is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\bot.js:102:19
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:339:28
+    at C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T20:18:12.239Z] [INFO] All cron jobs initialized
+[2025-05-25T20:19:46.962Z] [INFO] All cron jobs initialized
+[2025-05-25T20:19:58.974Z] [ERROR] Error for message
+Stack: TypeError: logActivity is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\modes\tarot.js:95:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf-session-local\lib\session.js:174:7
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+[2025-05-25T20:20:14.352Z] [ERROR] Error for message
+Stack: TypeError: logActivity is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\modes\palmreading.js:32:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T20:21:01.861Z] [ERROR] Error for message
+Stack: TypeError: logActivity is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\modes\astrology.js:46:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T20:21:04.184Z] [INFO] User 356292830 spent 3 coins. New balance: 2
+[2025-05-25T20:21:04.278Z] [ERROR] Error for message
+Stack: TypeError: logActivity is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\modes\astrology.js:132:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+[2025-05-25T20:21:06.777Z] [ERROR] Error for message
+Stack: TypeError: logActivity is not a function
+    at C:\Users\nesko\Desktop\lunora-bot\modes\astrology.js:87:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:518:17)
+    at async C:\Users\nesko\Desktop\lunora-bot\node_modules\telegraf\lib\composer.js:519:21

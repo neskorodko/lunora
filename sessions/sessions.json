@@ -1,0 +1,22 @@
+{
+  "sessions": [
+    {
+      "id": "356292830:356292830",
+      "data": {
+        "user": {
+          "id": 356292830,
+          "first_name": "vlad",
+          "last_name": "",
+          "username": "champagneepapi",
+          "coins": 2,
+          "subscriptions": [],
+          "created_at": "2025-05-25T19:40:30.831Z",
+          "last_activity": "2025-05-25T19:40:30.831Z"
+        },
+        "mode": null,
+        "astrologyData": {},
+        "astrologyAction": null
+      }
+    }
+  ]
+}
