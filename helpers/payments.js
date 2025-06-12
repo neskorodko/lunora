@@ -1,6 +1,7 @@
 // helpers/payments.js - логіка Telegram Payments
 const { Markup } = require('telegraf');
 const logger = require('./logger');
+const { createPaymentLink } = require('./fondy');
 
 /**
  * Відображає магазин з різними пакетами монет
@@ -47,13 +48,34 @@ function handleBuyCallback(ctx) {
   const price = parseInt(match[2]);
   const currency = process.env.CURRENCY || 'UAH';
   
+  if (process.env.FONDY_MERCHANT_ID && process.env.FONDY_SECRET_KEY) {
+    const orderId = `lunora_${ctx.from.id}_${Date.now()}`;
+    try {
+      const url = await createPaymentLink({
+        amount: price,
+        currency,
+        orderId,
+        orderDesc: `${amount} coins for Lunora`
+      });
+      await ctx.reply(
+        `💳 Оплата через Fondy:\n` +
+        `Перейдіть за посиланням для покупки ${amount} монет:\n${url}`
+      );
+      logger.info(`User ${ctx.from.id} initiated Fondy purchase of ${amount} coins`);
+    } catch (err) {
+      logger.error('Fondy payment creation failed', err);
+      await ctx.reply('⚠️ Помилка створення платежу. Спробуйте пізніше.');
+    }
+    return;
+  }
+
   if (!process.env.PROVIDER_TOKEN) {
     ctx.reply('⚠️ Налаштування платежів не завершено. Зверніться до адміністратора.');
     logger.error('PROVIDER_TOKEN не налаштовано');
     return;
   }
-  
-  // Створення платіжного інвойса
+
+  // Створення платіжного інвойса для Telegram
   ctx.replyWithInvoice({
     title: `${amount} монет для Lunora`,
     description: `Поповнення балансу на ${amount} монет для більше доступу до функцій`,
@@ -63,7 +85,7 @@ function handleBuyCallback(ctx) {
     prices: [{ label: `${amount} монет`, amount: price * 100 }], // у копійках
     start_parameter: 'get_coins'
   });
-  
+
   logger.info(`User ${ctx.from.id} initiated purchase of ${amount} coins`);
 }
 
